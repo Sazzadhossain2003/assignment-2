@@ -74,3 +74,60 @@ img{
 .banner-right{
     flex: 1;
 }
+
+.shop-section{
+    padding: 40px;
+    text-align: center;
+}
+.shop-section h1{
+    font-size: 35px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.shop-section p{
+    font-size: 17px;
+    max-height: 600px;
+    margin:  0 auto 45px ;
+    line-height: 1.5;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.product-card{
+    border: 1px solid rgb(248, 245, 245);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.product-card img{
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.product-card h2{
+    font-size: 20px;
+    margin: auto;
+}
+.product-card p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(83, 25, 25);
+}
+.product-card button{
+    background-color: rgb(233, 106, 60);
+    color: white;
+    border: none;
+    padding:10px  16px ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.product-card button:hover{
+    background-color: rgb(36, 112, 87);
+}
